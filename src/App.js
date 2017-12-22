@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 let defaultTextColor = "#fff";
@@ -49,12 +49,12 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Title</h1>
-        <Aggregate/>
-        <Aggregate/>
-        <Filter/>
-        <Playlist/>
-        <Playlist/>
-        <Playlist/>
+        <Aggregate />
+        <Aggregate />
+        <Filter />
+        <Playlist />
+        <Playlist />
+        <Playlist />
       </div>
     );
   }
